@@ -1,0 +1,9 @@
+{
+  "name": "Wildfly Example",
+  "description": "A barebones Java app running in Wildfly on Heroku.",
+  "buildpacks": [
+    {
+      "url": "https://github.com/jkutner/heroku-buildpack-wildfly"
+    }
+  ]
+}
